@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-image: url("../img/fondo\ 2.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav{
+    padding: 10px;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li img{
+    width: 80px;
+}
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: rgb(0, 119, 255);
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: rgb(0, 119, 255);
+}
+.hov_log:hover{
+    background-color: #ffffff;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
